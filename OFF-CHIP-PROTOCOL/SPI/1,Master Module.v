@@ -89,7 +89,6 @@ module spi_master(
                     bit_count<=bit_count-1;
                   end 
               end 
-            
             done:
             begin
               ss<=1;
