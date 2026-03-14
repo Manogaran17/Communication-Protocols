@@ -1,6 +1,5 @@
 
 module apb_master(
-
   input pclk,
   input prst,
   input transfer,
