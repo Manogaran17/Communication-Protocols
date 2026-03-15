@@ -1,6 +1,4 @@
-  
  module apb_top(
-
 input pclk,
 input prst,
 input transfer,
