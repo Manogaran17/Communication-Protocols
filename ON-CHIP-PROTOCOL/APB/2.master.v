@@ -19,7 +19,7 @@ module apb_master(
   reg [1:0] state,nxt_state;
   
   parameter idle = 2'b00, setup = 2'b01, access = 2'b10;
-  
+
   always@(posedge pclk or negedge prst )
     begin
       if(~prst)
