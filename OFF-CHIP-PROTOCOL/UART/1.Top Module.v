@@ -34,7 +34,7 @@
               .tx(tx_rx),
               .busy(busy)
             );
-            
+          
             receiver #(.data_width(data_width)) receive(
               .clk(clk),
               .rst(rst),
