@@ -77,6 +77,4 @@ module transmitter #(parameter data_width =8)(
       
           assign busy = (state!=idle);
           endmodule 
-          
-          
-         
+  
