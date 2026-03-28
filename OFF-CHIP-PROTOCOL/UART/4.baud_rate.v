@@ -1,5 +1,4 @@
-// Code your design here
-// Code your design here
+
 module baud_gen(
   input clk,
   output tx_en,rx_en
