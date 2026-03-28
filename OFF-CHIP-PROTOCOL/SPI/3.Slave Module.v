@@ -1,5 +1,4 @@
 module spi_slave(
-  
   input sclk,
   input ss,
   input mosi,
