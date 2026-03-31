@@ -5,7 +5,7 @@ input transfer,
 input pwrite_in,
 input [7:0] write_data,
 input [8:0] addr,
-
+  
 output [7:0] read_data
 
 );
