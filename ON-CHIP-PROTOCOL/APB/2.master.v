@@ -69,7 +69,7 @@ module apb_master(
       pwrite=pwrite_in;
       pwdata=write_data;
       paddr=addr;
-      
+
       psel = 3'b000;
       
       if(state==setup||state==access)
