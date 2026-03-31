@@ -1,5 +1,5 @@
 module spi_top(
-  
+
   input clk,
   input rst,
   input start,
