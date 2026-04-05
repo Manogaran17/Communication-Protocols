@@ -64,7 +64,7 @@ module apb_master(
   
   always@(*)
     begin
-      
+
       penable = (state == access);
       pwrite=pwrite_in;
       pwdata=write_data;
