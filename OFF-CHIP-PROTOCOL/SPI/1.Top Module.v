@@ -5,7 +5,7 @@ module spi_top(
   input start,
   input [7:0]slavedata_in,
   input [7:0]masterdata_in,
- 
+
   output [7:0]masterdata_out,
   output [7:0]slavedata_out,
   output done1
