@@ -14,7 +14,7 @@ module spi_top(
   wire miso;
   wire sclk;
   wire ss;
-  
+
   spi_master master(
     .clk(clk),
     .rst(rst),
