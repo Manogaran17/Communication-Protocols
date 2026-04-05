@@ -17,7 +17,7 @@ module spi_slave(
           bit_count<=4'd8;
           miso<=0;
         end 
-      
+    
       else if(ss==0)
         begin
           
