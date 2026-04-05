@@ -11,7 +11,6 @@ reg [8:0] addr;
 wire [7:0] read_data;
 
 apb_top DUT(
-
 .pclk(pclk),
 .prst(prst),
 .transfer(transfer),
