@@ -1,6 +1,6 @@
 
  module apb_slave(
-    
+   
     input pclk,
     input prst,
     input psel,
