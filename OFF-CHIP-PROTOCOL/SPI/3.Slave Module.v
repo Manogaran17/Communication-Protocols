@@ -9,7 +9,6 @@ module spi_slave(
 );
   reg[7:0]shift_reg;
   reg[3:0]bit_count;
-
   always@(posedge sclk or posedge rst)
     begin
       if(rst)
