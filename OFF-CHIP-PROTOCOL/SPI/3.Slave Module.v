@@ -4,7 +4,6 @@ module spi_slave(
   input mosi,
   input rst,
   input [7:0]data_in,
-
   output reg miso,
   output reg [7:0]data_out
 );
