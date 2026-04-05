@@ -1,6 +1,5 @@
 
 module tb_apb;
-
 reg pclk;
 reg prst;
 reg transfer;
