@@ -11,7 +11,7 @@ module spi_master(
   output reg done1,
   output reg [7:0]data_out
 );
-  
+ 
   reg[7:0] shift_reg;
   reg[3:0]bit_count;
   
