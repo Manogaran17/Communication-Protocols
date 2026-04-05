@@ -71,7 +71,7 @@ module apb_master(
       paddr=addr;
 
       psel = 3'b000;
-      
+  
       if(state==setup||state==access)
         begin
           case(addr[8:7])
