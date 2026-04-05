@@ -14,7 +14,7 @@ module apb_master(
   output reg [8:0]paddr,
   output reg [2:0]psel,
   output reg [7:0] read_data
-  
+
 );
   reg [1:0] state,nxt_state;
   
